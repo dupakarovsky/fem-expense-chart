@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "/react.svg";
 import viteLogo from "/vite.svg";
 import typescriptLogo from "/typescript.svg";
-import {Icon} from "./components/Icon/Icon";
+import { Icon } from "./components/Icon/Icon";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ function App() {
                     <img src={typescriptLogo} className="logo" alt="Typescript logo" />
                 </a>
                 <a href="#">
-                    <Icon id="icon-home1"/>
+                    <Icon id="icon-html-five" width={120} height={120} fillColor="royalblue" stroke="transparent" />
                 </a>
             </div>
             <h1>Vite + React + TypeScript</h1>
@@ -28,7 +28,6 @@ function App() {
                 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
                 <p>
                     Edit <code>src/App.tsx</code> and save to test HMR
-                    <
                 </p>
                 <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
             </div>

@@ -25,7 +25,7 @@ export function Icon({
             fill={fillColor}
             stroke={stroke}
         >
-            <use href={`symbols-def.svg#${id}`}></use>
+            <use href={`symbol-defs.svg#${id}`}></use>
         </svg>
     );
 }
